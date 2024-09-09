@@ -50,7 +50,7 @@ setProperty("UsersBox", "hidden", true);
 setProperty("Cont_button", "hidden", false);
 setProperty("Akinator_thinking", "image", "https://www.capsulecomputers.com.au/wp-content/uploads/aki
 } else if (gamestatus === "Lose") {
-setText("Status_screen", "Sorry, you have used all your attempts. the correct number was " + secretNu
+setText("Status_screen", "Sorry, you have used all your attempts. the correct number was " + secretNumber
 }
 });
 
